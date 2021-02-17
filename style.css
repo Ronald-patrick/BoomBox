@@ -1,0 +1,45 @@
+body
+{
+    background-color: black;
+}
+.keys
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+    flex-wrap: wrap;
+}
+.key
+{
+    z-index: 12;
+border: 3px solid red;
+margin: 20px;
+font-size: 70px;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+text-align: center;
+width: 150px;
+padding: 15px;
+transition: all 0.1s;
+color: white;
+box-shadow: 0 0 40px rgb(255, 7, 7);
+}
+.sound
+{
+    font-size: 30px;
+}
+
+.playing
+{
+    transform: scale(1.1);
+    border: 3px solid rgb(5, 248, 86) ;
+    box-shadow: 0 0 40px rgb(5, 248, 86);
+}
+span{
+    pointer-events: none;
+}
+kbd{
+    pointer-events: none;
+}
